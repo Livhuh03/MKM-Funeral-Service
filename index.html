@@ -112,44 +112,7 @@
         </section>
         
         
-        <section id="grief-tool" class="py-16 md:py-24 bg-gray-50 max-w-7xl mx-auto px-6 lg:px-8 rounded-xl shadow-inner my-12">
-            <h2 class="text-4xl font-extrabold text-primary-navy text-center mb-4 flex items-center justify-center">
-                Finding the Right Words: Grief Support Tool <span class="text-accent-gold ml-3 text-4xl">✨</span>
-            </h2>
-            <div class="h-1 w-20 bg-accent-gold mx-auto mb-8 rounded-full"></div>
-            <p class="text-center text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-                It's hard to know what to say. Use our AI assistant to draft a thoughtful, supportive message for a card, email, or conversation.
-            </p>
-
-            <div class="grid md:grid-cols-3 gap-6 bg-white p-8 rounded-xl shadow-lg border border-gray-200">
-                <div class="md:col-span-1 space-y-4">
-                    <div>
-                        <label for="grief-relationship" class="block text-sm font-medium text-gray-700">Relationship to the Bereaved</label>
-                        <input type="text" id="grief-relationship" placeholder="e.g., Close family friend" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-accent-gold focus:ring-accent-gold">
-                    </div>
-                    <div>
-                        <label for="grief-quality" class="block text-sm font-medium text-gray-700">One positive memory or quality of the deceased (Optional)</label>
-                        <input type="text" id="grief-quality" placeholder="e.g., Always made people laugh, loved gardening" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-accent-gold focus:ring-accent-gold">
-                    </div>
-                    <button id="generate-message-btn" onclick="generateGriefMessage()" class="w-full bg-accent-gold text-primary-navy font-bold py-3 px-4 rounded-xl hover:bg-opacity-90 transition duration-300 flex items-center justify-center">
-                        Generate Message
-                    </button>
-                    <div id="grief-loading" class="hidden text-center text-primary-navy font-medium">
-                        <div class="animate-spin inline-block w-6 h-6 border-4 border-accent-gold border-t-transparent rounded-full mr-2"></div>
-                        Drafting with care...
-                    </div>
-                </div>
-
-                <div class="md:col-span-2">
-                    <label class="block text-sm font-medium text-gray-700 mb-2">Generated Message (Copy and Use)</label>
-                    <div id="grief-output" class="min-h-32 bg-gray-50 p-4 border border-gray-300 rounded-lg whitespace-pre-wrap text-gray-800 italic">
-                        Your thoughtful message will appear here after generation.
-                    </div>
-                    <button id="copy-message-btn" onclick="copyGriefMessage()" class="hidden mt-3 text-sm bg-primary-navy text-white py-2 px-4 rounded-lg hover:bg-primary-navy/80 transition duration-300">
-                        Copy to Clipboard
-                    </button>
-                </div>
-            </div>
+       
         </section>
 
         
@@ -722,3 +685,4 @@
     </script>
 </body>
 </html>
+
